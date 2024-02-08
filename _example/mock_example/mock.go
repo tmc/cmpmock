@@ -6,8 +6,8 @@ package mock_example
 
 import (
 	context "context"
-	_example "github.com/budougumi0617/cmpmock/_example"
-	gomock "github.com/golang/mock/gomock"
+	_example "github.com/tmc/cmpmock/_example"
+	gomock "go.uber.org/mock/gomock"
 	reflect "reflect"
 )
 

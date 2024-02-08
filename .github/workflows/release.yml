@@ -20,8 +20,8 @@ jobs:
           node-version: '12'
       - name: Set releaser settings
         run: |
-          git config --global user.name budougumi0617
-          git config --global user.email budougumi0617@gmail.com
+          git config --global user.name tmc
+          git config --global user.email tmc@gmail.com
       - name: Major release
         id: major
         if: contains(toJSON(github.event.commits.*.message), 'bump up version major')

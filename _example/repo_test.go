@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/budougumi0617/cmpmock"
-	"github.com/budougumi0617/cmpmock/_example"
-	"github.com/budougumi0617/cmpmock/_example/mock_example"
-	"github.com/golang/mock/gomock"
+	"github.com/tmc/cmpmock"
+	"github.com/tmc/cmpmock/_example"
+	"github.com/tmc/cmpmock/_example/mock_example"
+	"go.uber.org/mock/gomock"
 )
 
 func TestUserUsecase_Save(t *testing.T) {
